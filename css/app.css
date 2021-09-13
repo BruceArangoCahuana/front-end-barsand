@@ -59,10 +59,7 @@ input[type=text]{
     font-weight: 300!important;
     text-transform: lowercase!important;
 }
-i{
-    font-family: var(--Font-Anton)!important;
-    font-weight: 300!important;
-}
+
 .col-10{
     margin: 0 auto;
 }
