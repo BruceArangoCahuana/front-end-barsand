@@ -86,12 +86,8 @@ input[type=text]{
       font-weight: bold;
       text-transform: capitalize;
   }
-  .borde__fondo{
-      border:1px solid #f2f2f2;
-      -webkit-box-shadow: -1px 2px 5px 5px rgba(0,0,0,0.08);
-      -moz-box-shadow: -1px 2px 5px 5px rgba(0,0,0,0.08);
-      box-shadow: -1px 2px 5px 5px rgba(0,0,0,0.08);
-  }
+
+
   .borde__fondo p{
     font-size: 18px;
     text-align: justify;
@@ -104,5 +100,11 @@ input[type=text]{
   }
 
   .icon__azul{
-      color:rgba(0, 17, 255, 0.61)
+      padding: 10px 10px;
+      border-radius: 50%;
+      background-color:rgba(0,73,145,.75);
+      color: #FFF;
+  }
+  .justify__texto{
+    text-align: justify!important;
   }
