@@ -1,9 +1,9 @@
 :root{
     --Font-Anton:'Anton', sans-serif;
-    --font-body:'Roboto', sans-serif;
+    --font-body:Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 body{
-    font-family: var(--font-body);
+    font-family: var(--font-body)!important;
 }
 .align-items-center{
     margin-left: auto!important;
@@ -80,4 +80,29 @@ input[type=text]{
   
   .whatsapp-icon {
     margin-top:13px;
+  }
+  .sub__titulo{
+      font-family: var(--font-body);
+      font-weight: bold;
+      text-transform: capitalize;
+  }
+  .borde__fondo{
+      border:1px solid #f2f2f2;
+      -webkit-box-shadow: -1px 2px 5px 5px rgba(0,0,0,0.08);
+      -moz-box-shadow: -1px 2px 5px 5px rgba(0,0,0,0.08);
+      box-shadow: -1px 2px 5px 5px rgba(0,0,0,0.08);
+  }
+  .borde__fondo p{
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  @media (max-width: 750px){
+    .col-6{
+        width: 100%!important;
+    }
+  }
+
+  .icon__azul{
+      color:rgba(0, 17, 255, 0.61)
   }
