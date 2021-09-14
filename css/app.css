@@ -92,6 +92,10 @@ input[type=text]{
     font-size: 18px;
     text-align: justify;
   }
+  .borde__fondo{
+    background-color: #FFF!important;
+    border-radius: 15px;
+  }
 
   @media (max-width: 750px){
     .col-6{
@@ -107,4 +111,26 @@ input[type=text]{
   }
   .justify__texto{
     text-align: justify!important;
+  }
+  .gray__fondo{
+      background-color: #f8f0f0!important;
+  }
+  .svg__imagen{
+      width: 100%;
+  }
+  .span__azul{
+      color: rgb(17, 114, 224);
+  }
+  .titulo__barsand{
+    font-family: var(--font-body);
+    font-weight: 500;
+    text-transform: lowercase;
+  }
+  .titulo__barsand .span__azul{
+    font-family: var(--font-body);
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .span__first{
+      text-transform: capitalize;
   }
