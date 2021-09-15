@@ -1,6 +1,7 @@
 :root{
     --Font-Anton:'Anton', sans-serif;
     --font-body:Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    --color-barsand:#08519C;
 }
 body{
     font-family: var(--font-body)!important;
@@ -17,6 +18,7 @@ input[type=text]{
 }
 .container-fluid{
     width: 90%!important;
+    max-width: 1200px!important;
 }
 .titulo__hero,
 .texto__hero{
@@ -96,17 +98,33 @@ input[type=text]{
     background-color: #FFF!important;
     border-radius: 15px;
   }
-
+.padding{
+    padding: 5rem!important;
+}
   @media (max-width: 750px){
     .col-6{
         width: 100%!important;
     }
-  }
-
+    .col-4{
+        width: 100%!important;
+    }
+    .padding{
+        padding: 0rem!important;
+    }
+    .col-3{
+        width: 100%!important;
+    }
+    .sub__titulo{
+        margin-bottom: 20px;
+    }
+    .card{
+        width: 100%!important;
+    }
+}
   .icon__azul{
       padding: 10px 10px;
       border-radius: 50%;
-      background-color:rgba(0,73,145,.75);
+      background-color:var(--color-barsand)!important;
       color: #FFF;
   }
   .justify__texto{
@@ -119,7 +137,7 @@ input[type=text]{
       width: 100%;
   }
   .span__azul{
-      color: rgb(17, 114, 224);
+      color: var(--color-barsand)!important;
   }
   .titulo__barsand{
     font-family: var(--font-body);
@@ -134,3 +152,7 @@ input[type=text]{
   .span__first{
       text-transform: capitalize;
   }
+  .btn-info{
+      background-color: var(--color-barsand)!important;
+  }
+  
