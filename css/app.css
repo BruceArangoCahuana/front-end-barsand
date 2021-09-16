@@ -16,6 +16,7 @@ input[type=text]{
  border: 1px solid #c2c2c2;
  border-radius: 10px;
 }
+
 .container-fluid{
     width: 95%!important;
     max-width: 1200px!important;
@@ -122,6 +123,9 @@ input[type=text]{
     .card{
         width: 100%!important;
     }
+    .img__size{
+        display: none!important;
+    }
 }
   .icon__azul{
       padding: 10px 10px;
@@ -154,7 +158,17 @@ input[type=text]{
   .span__first{
       text-transform: capitalize;
   }
+  
+  .btn-outline-info{
+      border: 1px solid var(--color-barsand)!important;
+      color:var(--color-barsand)!important;
+  }
   .btn-info{
-      background-color: var(--color-barsand)!important;
+    background: var(--color-barsand)!important;
+    color:white!important;
   }
   
+  .btn-outline-info:hover{
+    background: var(--color-barsand)!important;
+    color:white!important;
+}
