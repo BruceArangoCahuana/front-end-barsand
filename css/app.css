@@ -126,6 +126,9 @@ input[type=text]{
     .img__size{
         display: none!important;
     }
+    .d-flex{
+        display: block;
+    }
 }
   .icon__azul{
       padding: 10px 10px;
@@ -171,4 +174,17 @@ input[type=text]{
   .btn-outline-info:hover{
     background: var(--color-barsand)!important;
     color:white!important;
+}
+input[type=button]{
+    display: none;
+}
+.slick-prev,
+.slick-next{
+    display: none!important;
+}
+.slick-dots{
+    display: none!important;
+}
+.card-text{
+    border:none!important;
 }
